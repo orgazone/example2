@@ -1,0 +1,17 @@
+{{#data}}
+<li>
+    <div style="width:100%; float:left;">
+        <div style="float:left; width:60%;">
+            <div class="listHeading">{{title}}</div>
+            <div class="listSubtitle">{{{stringDate timeStamp}}}</div>
+        </div>
+
+        <div style="float:right;">
+            <!--<a data-role="button" class="listButton" onclick="app.changePage('editPage',{{id}});"> Edit </a>
+            <a data-role="button" class="listButton" onclick="orga.deleteItem({{id}});"> Delete </a>-->
+            <a data-role="button" class="listButton" data-icon="edit" data-iconpos="notext" onclick="app.changePage('editPage',{{id}});"> Edit </a>
+            <a data-role="button" class="listButton" data-icon="delete" data-iconpos="notext"onclick="orga.deleteItem({{id}});"> Delete </a>
+        </div>
+    </div>
+</li>
+{{/data}}

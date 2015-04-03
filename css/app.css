@@ -1,0 +1,83 @@
+.myContent {
+    display: none;
+    text-align: center;
+}
+
+.app_heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.app_subheading {
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.savedataBtn {}
+
+.listdataBtn {}
+/*[data-role=page]{height: 100% !important; position:relative !important;}
+[data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;} */
+
+#wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+#center {
+    *display: inline;
+    /* IE*/
+    
+    *zoom: 1;
+    /* IE*/
+    
+    overflow: hidden;
+    text-align: left;
+}
+
+.listButton {
+    font-size: 10px;
+    padding: 2px;
+    float: left;
+    margin-left: 10px !important;
+}
+
+.listHeading {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+}
+
+.listSubtitle {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+}
+/**Footer alignment*/
+
+#main {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+#right_part {
+    width: 49%;
+    float: left;
+}
+
+#left_part {
+    float: left;
+    width: 49%;
+    display: inline-block;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.syncButtons {
+    float: left;
+    margin-left: 40px !important;
+}

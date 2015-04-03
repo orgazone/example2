@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html manifest="orga.appcache">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.tif">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.tif">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.tif">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.tif">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="libs/jquery.datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="libs/addtohomescreen.css" />
+    <title>Orga Zone</title>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="a">
+            <a href="#" id="navIcon" class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-home">Home</a>
+            <h1>orga.zone</h1>
+        </div>
+        <!-- /header -->
+        <div role="main" class="ui-content">
+            <div id="wrapper">
+                <div id="center">
+                    <!-- Home page -->
+                    <div id="homePage" class="myContent">
+                    </div>
+                    <!-- /Home page -->
+                    
+                    <!-- Save new page -->
+                    <div id="saveNewPage" class="myContent">
+                    </div>
+                    <!-- /Save new page -->
+                    
+                    <!-- List page -->
+                    <div id="listPage" class="myContent">
+                    </div>
+                    <!-- /List page -->
+                    
+                    <!-- Log List page -->
+                    <div id="loglistPage" class="myContent">
+                    </div>
+                    <!-- /Log List page -->
+                    
+                    <div class="clearBoth"></div>
+                </div>
+                <!--wrapper-->
+            </div>
+            <!--center-->
+        </div>
+        <!-- /content -->
+        <div data-position="fixed" data-role="footer" data-theme="a">
+            <div style="text-align:center;">
+                <a id="shortcut" data-role="button" data-icon="plus" data-iconpos="notext"> Add to home screen </a>
+                <a data-role="button" data-icon="info" data-iconpos="notext" onclick="app.checkConnectivity();"> Info </a>
+            </div>
+        </div>
+    </div>
+    <!--/ page-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="libs/handlebars.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.datetimepicker.js"></script>
+    <script type="text/javascript" src="libs/addtohomescreen.js"></script>
+    <script type="text/javascript" src="js/helpers.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/orga.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>    
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<img src="img/logo-small.png">
+
+<div style="margin-top:25px;">
+    This is the first of three examples.
+    <br> Publish your web apps on <a href="https://orga.zone/" target="_blank">https://orga.zone/</a>
+    <br> &nbsp;
+</div>
+
+<a href="#" id="addNewItems" data-role="button" id="saveNewData" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a">
+    Save new data locally
+</a>
+
+<a href="#" id="showListItem" data-role="button" id="listData" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a">
+    List previously saved data
+</a>
+
+<a href="#" id="showLogsBtn" >Show log list</a>
+
+<!-- Sync buttons -->
+<div style="margin-top:25px;">
+    <a class="syncButtons" onclick="orga.sync.getStatus()" style="margin-left: 0px !important;" id="getSyncstatus" data-role="button" data-icon="recycle">Sync</a>
+    <a class="syncButtons" onclick="orga.sync.getStatus(null,true);" id="pushData" data-role="button" data-icon="arrow-u">Push data</a>
+    <a class="syncButtons" onclick="orga.sync.getStatus(true,null)" id="downloadData" data-role="button" data-icon="arrow-d">Pull data</a>
+</div>
+<!-- /Sync buttons -->
